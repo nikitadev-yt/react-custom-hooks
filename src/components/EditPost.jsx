@@ -38,7 +38,7 @@ const EditPost = () => {
         variant="outline"
         display="flex"
         mb={5}
-        onClick={() => navigate("/posts")}
+        onClick={() => navigate("/")}
       >{`<`}</Button>
       <Card p={6} color="gray.400">
         <Box>
