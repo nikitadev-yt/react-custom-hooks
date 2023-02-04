@@ -15,7 +15,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box textAlign="center" m="3rem auto" p={5} maxW={700}>
         <Routes>
-          <Route path="/posts" element={<Posts />} />
+          <Route path="/" element={<Posts />} />
           <Route path="/posts/:id/edit" element={<EditPost />} />
         </Routes>
       </Box>
